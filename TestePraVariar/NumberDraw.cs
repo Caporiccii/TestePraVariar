@@ -23,6 +23,7 @@ namespace TestePraVariar
                 }
 
                 //sorteados.RemoveAt
+                //TODO: usar lambda para comparação de numeros repitidos!
 
             var a = int.Parse(sorteados.ToArray().GetValue(1).ToString());
             if (sorteados.Contains(a))
